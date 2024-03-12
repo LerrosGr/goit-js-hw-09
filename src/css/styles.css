@@ -54,6 +54,8 @@
 .feedback-form {
   display: flex;
   flex-direction: column;
+
+  width: 500px;
 }
 .text-input {
   display: flex;
@@ -61,10 +63,13 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   margin-bottom: 8px;
+  width: 360px;
 }
 .input {
   width: 360px;
   margin-top: 8px;
+  padding: 0;
+  box-sizing: border-box;
 }
 .input-email {
   height: 39px;
