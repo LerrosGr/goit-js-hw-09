@@ -9,7 +9,7 @@
 @import url('./header.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat, Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -23,6 +23,8 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+/* Стилі для галереї */
 
 .gallery {
   display: flex;
@@ -46,4 +48,49 @@
 .modal-img {
   width: 1112px;
   height: auto;
+}
+
+/* Стилі для форми */
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+}
+.text-input {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.input {
+  width: 360px;
+  margin-top: 8px;
+}
+.input-email {
+  height: 39px;
+}
+.input-text {
+  height: 79px;
+}
+.button-submit {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 16px;
+}
+.button-submit:hover {
+  background: #6c8cff;
+}
+.input:hover {
+  border: 2px solid black;
+  border-radius: 5px;
 }
